@@ -3,18 +3,30 @@
 - Link para download do Git  https://git-scm.com/download/
 - Link site GitHub https://github.com/
 
-
-
 # Anotações:books:
 
+
 - Inicialmente o Git foi criado para rodar em sistemas Unix (Linux), para usuários do Windows foi criado o Git Bash, que emula um terminal Unix e permite os comandos Git. O Git Bash já vem no pacote de instalação do Git para Windows; 
+
 - O Git é um sistema de controle de versão de código aberto, é usado para controlar o histórico de alterações de arquivos, auxilia desenvolvedores de projetos de software. Garante flexibilidade, segurança e otimiza o trabalho em equipe;
+
 - O Git Bash segue o seguinte fluxo: **Untracked** =>**Unmodified** =>**Modified**=>**Staged**=>**Unmodified** (aguardando novo comando); 
+
 - **git init**: Inicia um repositório local;
+
 - **git status**: Verifica o estado dos arquivos, é uma boa prática sempre conferir o status antes de iniciar e durante o fluxo de alterações; 
+
 - **git add *** ou **.** (asterisco ou ponto) **"NOME DO ARQUIVO"** : Envia o arquivo para Staged; 
+
 - **git commit -m "TITULO DO COMMIT"**: Envia o que está no Staged para o repositório remoto, neste caso para o Git Hub;
+
 - **git push origin master ou main**: Envia os arquivos para o repositório remoto especificado através da URL no Git Hub;   
 
 - **Conflitos de merge**: Quando há alterações na mesma linha de um arquivo ou quando uma pessoa edita um arquivo e outra exclui o mesmo arquivo;
+
 - **Git Clone**: Comando utilizado para selecionar um repositório existente e criar uma cópia e/ou clone para o repositório de destino.  
+  =======
+
+- O Git Bash é um terminal extendido para otimizar o uso do Git;
+
+  
